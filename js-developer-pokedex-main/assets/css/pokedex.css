@@ -1,0 +1,106 @@
+/* Ajuste da grid para exibir 3 cards por linha em telas maiores */
+.pokedex-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 colunas iguais */
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 1024px) {
+    .pokedex-container {
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 cards por linha em telas médias */
+    }
+}
+
+@media (max-width: 768px) {
+    .pokedex-container {
+        grid-template-columns: 1fr;
+        /* 1 card por linha em telas pequenas */
+    }
+}
+
+
+/* Estilo dos cards */
+.pokemon-card {
+    background-color: #f0f0f0;
+    /* Pode ajustar conforme o tipo */
+    border-radius: 15px;
+    /* Borda mais arredondada */
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    /* Sombra mais suave */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    padding: 10px 15px;
+}
+
+/* Efeito de hover */
+.pokemon-card:hover {
+    transform: translateY(-5px);
+    /* Efeito de flutuação */
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Imagem do Pokémon */
+.pokemon-image img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    /* Fundo circular */
+    background-color: #fff;
+    /* Fundo branco para destacar a imagem */
+    padding: 10px;
+}
+
+/* Informações do Pokémon */
+.pokemon-info {
+    padding: 15px 0;
+}
+
+.pokemon-id {
+    font-weight: bold;
+    color: #666;
+}
+
+.pokemon-name {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.pokemon-types {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.type {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.875rem;
+    color: white;
+    text-transform: capitalize;
+}
+
+/* Exemplo de cores por tipo */
+.grass {
+    background-color: #78C850;
+}
+
+.poison {
+    background-color: #A040A0;
+}
+
+.fire {
+    background-color: #F08030;
+}
+
+.water {
+    background-color: #6890F0;
+}
