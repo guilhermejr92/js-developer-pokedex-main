@@ -1,6 +1,6 @@
-## Pokedex
+# Pokedex
 
-# Descrição
+## Descrição
 
 Este é um dos Desafios de Projeto da DIO de Pokedex desenvolvido com HTML, CSS e JavaScript, utilizando a API da PokeAPI para exibir informações sobre Pokémon. A aplicação permite visualizar detalhes como altura, peso, habilidades e estatísticas de cada Pokémon ao clicar em seu card.
 
