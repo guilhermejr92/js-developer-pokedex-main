@@ -1,19 +1,19 @@
 # Construindo uma Pokédex com JavaScript
 
-## Descrição
++ Descrição
 
 Este é um dos Desafios de Projeto da DIO de Pokedex desenvolvido com HTML, CSS e JavaScript, utilizando a API da PokeAPI para exibir informações sobre Pokémon. A aplicação permite visualizar detalhes como altura, peso, habilidades e estatísticas de cada Pokémon ao clicar em seu card.
 
 Este projeto tem como objetivo demonstrar o uso de JavaScript para manipulação do DOM, consumo de APIs e exibição dinâmica de dados em uma interface moderna e responsiva.
 
-## Funcionalidades
++ Funcionalidades
 
 - Visualizar Pokémon: Lista de Pokémon com imagem, nome e tipos.
 - Detalhes do Pokémon: Ao clicar em um Pokémon, um modal é exibido com informações detalhadas, incluindo altura, peso, habilidades e estatísticas (HP, ataque, defesa, etc.).
 - Interface Responsiva: Layout adaptado para dispositivos móveis e desktops.
 
 
-## Tecnologias Utilizadas
++ Tecnologias Utilizadas
 
 - HTML5: Estrutura do projeto.
 - CSS3: Estilização com classes personalizadas e Normalize.css.
